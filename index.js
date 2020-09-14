@@ -25,7 +25,7 @@ module.exports = {
       },
     },
   },
-  extends: ['plugin:@typescript-eslint/recommended', '@react-native-community'],
+  extends: ['@react-native-community'],
   rules: {
     quotes: [
       'error',
@@ -35,9 +35,6 @@ module.exports = {
       },
     ],
     'max-len': ['error', 120],
-    '@typescript-eslint/ban-ts-comment': 2,
-    '@typescript-eslint/no-explicit-any': 2,
-    '@typescript-eslint/explicit-module-boundary-types': 0,
     'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }],
     'react-native/no-unused-styles': 2,
     'react-native/split-platform-components': 2,
@@ -61,7 +58,6 @@ module.exports = {
     'import/no-cycle': 0,
     'import/no-unused-modules': 0,
     'import/no-deprecated': 0,
-    '@typescript-eslint/indent': 0,
     'import/no-anonymous-default-export': 2,
     'react-hooks/rules-of-hooks': 2,
     'react-hooks/exhaustive-deps': [
