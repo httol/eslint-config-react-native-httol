@@ -35,7 +35,7 @@ module.exports = {
       },
     ],
     'max-len': ['error', 120],
-    'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }],
+    'react/jsx-filename-extension': ['error', { extensions: ['.tsx', '.js'] }],
     'react-native/no-unused-styles': 2,
     'react-native/split-platform-components': 2,
     'react-native/no-inline-styles': 0,
@@ -69,5 +69,15 @@ module.exports = {
     camelcase: 2,
     'prefer-destructuring': 2,
     'no-nested-ternary': 2,
+    'comma-dangle': [
+      'error',
+      {
+        arrays: 'never',
+        objects: 'never',
+        imports: 'never',
+        exports: 'never',
+        functions: 'never',
+      },
+    ],
   },
 };
