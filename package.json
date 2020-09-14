@@ -1,11 +1,10 @@
 {
   "name": "eslint-config-react-native-httol",
-  "version": "0.0.1-development",
+  "version": "0.0.2-development",
   "description": "eslint config",
   "main": "index.js",
   "scripts": {
-    "test": "eslint -c index.js",
-    "semantic-release": "semantic-release"
+    "test": "eslint -c index.js"
   },
   "repository": {
     "type": "git",
