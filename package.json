@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-react-native-httol",
+  "version": "0.0.1",
+  "description": "eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint -c index.js",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/httol/eslint-config-react-native-httol.git"
+  },
+  "author": "httol 895652159@qq.com",
+  "license": "MIT"
+}
